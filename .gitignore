@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+._*
+Thumbs.db
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Local agent & tooling state
+.omc/
+.claude/settings.local.json
+
+# Logs
+*.log
