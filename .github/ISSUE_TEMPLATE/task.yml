@@ -14,9 +14,9 @@ body:
     attributes:
       label: 영역
       options:
-        - App (React Native)
-        - API (Spring)
-        - AI / Data (FastAPI)
+        - FE (React Native)
+        - BE (Spring)
+        - BE (FastAPI)
         - Infra / CI
         - 문서 / 컨벤션
         - 여러 영역에 걸침 · 미정

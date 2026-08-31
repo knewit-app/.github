@@ -97,4 +97,5 @@ Refs: #12
 
 - 버그는 `🐛 Bug Report`, 기능 제안은 `✨ Feature Request`, 그 외 작업(리팩터링·설정·문서·조사)은 `🛠 Task` 템플릿을 사용합니다.
 - 질문·논의는 이슈보다 Discussions가 적합합니다.
-- 라벨은 **종류**(`bug`, `enhancement`, `task`, `docs`)와 **영역**(`app`, `server`, `ai`, `infra`)을 조합해 사용합니다.
+- 라벨은 **종류**(`bug`, `enhancement`, `task`, `docs`)와 **영역**(`fe`, `be`, `infra`)을 조합해 사용합니다.
+- 라벨 세트는 org 공통입니다. 새 레포를 만들면 [`scripts/sync-labels.sh`](https://github.com/knewit-app/.github/blob/main/scripts/sync-labels.sh)로 동기화하세요.

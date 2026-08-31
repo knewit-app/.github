@@ -13,9 +13,9 @@
 
 | Repository | 설명 | 스택 |
 | --- | --- | --- |
-| [`<repo-name>`](https://github.com/knewit-app/<repo-name>) | <모바일 클라이언트> | React Native, TypeScript |
-| [`<repo-name>`](https://github.com/knewit-app/<repo-name>) | <코어 API 서버> | Spring Boot, <Kotlin \| Java> |
-| [`<repo-name>`](https://github.com/knewit-app/<repo-name>) | <AI / 데이터 서비스> | FastAPI, Python |
+| [`knewit-fe`](https://github.com/knewit-app/knewit-fe) | <모바일 클라이언트> | React Native, TypeScript |
+| [`knewit-be`](https://github.com/knewit-app/knewit-be) | <API 서버 및 AI 서비스> | Spring Boot, <Kotlin \| Java> · FastAPI, Python |
+| [`.github`](https://github.com/knewit-app/.github) | org 공통 템플릿 · 기여 가이드 | — |
 
 ## Tech Stack
 
