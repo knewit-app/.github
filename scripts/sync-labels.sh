@@ -27,8 +27,8 @@ LABELS=(
   "enhancement|a2eeef|기능 추가 · 개선"
   "task|c5def5|리팩터링 · 설정 · 문서 등 일반 작업"
   "docs|0075ca|문서"
-  "fe|fbca04|React Native 클라이언트"
-  "be|5319e7|Spring · FastAPI 서버"
+  "fe|fbca04|프론트엔드"
+  "be|5319e7|백엔드"
   "infra|bfd4f2|인프라 · CI"
 )
 

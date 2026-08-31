@@ -14,9 +14,8 @@ body:
       label: 영역
       description: 문제가 발생한 영역
       options:
-        - FE (React Native)
-        - BE (Spring)
-        - BE (FastAPI)
+        - FE
+        - BE
         - Infra / CI
         - 기타 · 모르겠음
     validations:

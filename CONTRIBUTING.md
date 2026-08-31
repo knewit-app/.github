@@ -73,9 +73,11 @@ Refs: #12
 
 | 영역 | 도구 |
 | --- | --- |
-| React Native / TypeScript | ESLint + Prettier |
-| Spring (Kotlin/Java) | ktlint / google-java-format |
-| FastAPI (Python) | Ruff (lint + format) |
+| FE — React Native / TypeScript | ESLint + Prettier |
+| BE — Spring (Kotlin/Java) | ktlint / google-java-format |
+| BE — FastAPI (Python) | Ruff (lint + format) |
+
+> BE 스택이 확정되면 해당 행만 남기고 정리하세요.
 
 - CI가 린트·테스트를 검사합니다. 실패한 PR은 머지하지 않습니다.
 - 자동 포매팅으로 생긴 대규모 diff는 기능 변경과 분리된 커밋으로 남겨주세요.

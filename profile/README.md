@@ -14,14 +14,13 @@
 | Repository | 설명 | 스택 |
 | --- | --- | --- |
 | [`knewit-fe`](https://github.com/knewit-app/knewit-fe) | <모바일 클라이언트> | React Native, TypeScript |
-| [`knewit-be`](https://github.com/knewit-app/knewit-be) | <API 서버 및 AI 서비스> | Spring Boot, <Kotlin \| Java> · FastAPI, Python |
+| [`knewit-be`](https://github.com/knewit-app/knewit-be) | <API 서버> | <Spring Boot \| FastAPI — 미정> |
 | [`.github`](https://github.com/knewit-app/.github) | org 공통 템플릿 · 기여 가이드 | — |
 
 ## Tech Stack
 
-- **Client** — React Native · TypeScript
-- **Backend** — Spring Boot · <ORM> · <DB>
-- **AI/ML** — FastAPI · Python · <모델 / 프레임워크>
+- **FE** — React Native · TypeScript
+- **BE** — <Spring Boot \| FastAPI — 미정> · <DB>
 - **Infra** — <클라우드> · <컨테이너/오케스트레이션> · GitHub Actions
 
 ## Links
