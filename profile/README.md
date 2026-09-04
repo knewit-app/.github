@@ -1,13 +1,12 @@
-<!--
-  이 파일은 https://github.com/knewit-app 메인 페이지에 그대로 노출됩니다.
-  아래 <...> 플레이스홀더를 채우고 이 주석은 지워주세요.
--->
+# 💫 knewit
 
-# knewit
+> 카드 결제 기반 자동 방문 기록·장소 추천 서비스
 
-> <한 줄 소개 — 서비스가 무엇인지 한 문장으로>
+저장한 장소의 30%도 가보지 못하고, 광고에 오염된 리뷰는 믿지 못해 매번 처음부터 다시 검색하는 2030 소비자를 위한 서비스입니다. 카드를 한 번 연동하면 결제 내역이 실제 방문·재방문 기록으로 자동 전환되어 기록하는 수고 없이 개인의 장소 취향이 쌓이고, 그 기록을 근거로 다시 갈 만한 곳(KNEW IT)과 취향에 맞는 새로운 곳(NEW IT)을 추천합니다. 
 
-<서비스 설명 — 어떤 문제를 해결하는지, 누구를 위한 것인지 2~3문장>
+
+<img width="1920" height="1080" alt="header" src="https://github.com/user-attachments/assets/f669af0e-1e8b-4fb6-867b-9097101dac54" />
+
 
 ## Repositories
 
@@ -20,14 +19,8 @@
 ## Tech Stack
 
 - **FE** — React Native · TypeScript
-- **BE** — <Spring Boot \| FastAPI — 미정> · <DB>
-- **Infra** — <클라우드> · <컨테이너/오케스트레이션> · GitHub Actions
-
-## Links
-
-- 서비스: <배포 URL 또는 스토어 링크>
-- 문서: <노션 / 위키 / API 문서 링크>
-- 디자인: <Figma 링크>
+- **BE** — Spring Boot · Kotlin · Python
+- **Infra** — AWS · Docker · GitHub Actions
 
 ## For Contributors
 
@@ -39,7 +32,9 @@
 
 | 이름 | 역할 | GitHub |
 | --- | --- | --- |
-| <이름> | <역할> | [@<handle>](https://github.com/<handle>) |
+| 손하늘 | PM, Plan, UI/UX, FE | [@maetelson](https://github.com/maetelson) |
+| 민지인 | BE | [@jxxxxxn](https://github.com/jxxxxxn) |
+| 김겨레 | BE | [@gyesswhat](https://github.com/gyesswhat) |
 
 ## Contact
 
