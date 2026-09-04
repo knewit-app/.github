@@ -12,8 +12,8 @@
 
 | Repository | 설명 | 스택 |
 | --- | --- | --- |
-| [`knewit-fe`](https://github.com/knewit-app/knewit-fe) | <모바일 클라이언트> | React Native, TypeScript |
-| [`knewit-be`](https://github.com/knewit-app/knewit-be) | <API 서버> | <Spring Boot \| FastAPI — 미정> |
+| [`knewit-fe`](https://github.com/knewit-app/knewit-fe) | 모바일 클라이언트 | React Native · TypeScript |
+| [`knewit-be`](https://github.com/knewit-app/knewit-be) | API 서버 | Spring Boot · Kotlin · Python |
 | [`.github`](https://github.com/knewit-app/.github) | org 공통 템플릿 · 기여 가이드 | — |
 
 ## Tech Stack
