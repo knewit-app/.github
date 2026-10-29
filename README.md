@@ -17,7 +17,8 @@ org 내 모든 레포는 자체 파일이 없으면 여기 있는 템플릿을 �
 │     ├─ task.yml             # 일반 작업 폼 (리팩터링/설정/문서 등)
 │     └─ config.yml           # 이슈 선택 화면 설정
 ├─ scripts/
-│  └─ sync-labels.sh          # org 공통 라벨을 각 레포에 동기화
+│  ├─ sync-labels.sh          # org 공통 라벨을 각 레포에 동기화
+│  └─ check-wiki-sync.sh      # 레포별 experiment-to-wiki 연결 점검
 ├─ CONTRIBUTING.md            # 공통 기여 가이드
 ├─ .gitignore
 └─ README.md
@@ -41,6 +42,18 @@ org 내 모든 레포는 자체 파일이 없으면 여기 있는 템플릿을 �
 
 라벨 세트를 바꿀 때는 스크립트의 `LABELS` 배열을 수정하고 다시 실행하면 됩니다. (`--force`라 기존 라벨은 덮어씁니다.)
 새로 만들 레포에 자동 적용하려면 Organization Settings → Repository → Repository defaults → Labels 도 함께 맞춰두세요.
+
+## 실험 기록 연결 점검
+
+PR이 닫히면 각 레포의 `experiment-to-wiki.yml`이 "## 실험 결과" 섹션을 `context-docs/_inbox`로 보냅니다.
+레포마다 워크플로, PR 템플릿, `WIKI_TOKEN` 접근 권한이 다 있어야 동작하므로 한 번에 점검합니다.
+
+```bash
+./scripts/check-wiki-sync.sh                      # org 레포 전체
+./scripts/check-wiki-sync.sh knewit-fe knewit-be  # 특정 레포만
+```
+
+토큰은 마지막 실행 로그로만 판단합니다. 새 레포는 PR이 한 번 닫힌 뒤에야 `UNKNOWN`이 풀립니다.
 
 ## 레포별 커스터마이징 가이드
 
